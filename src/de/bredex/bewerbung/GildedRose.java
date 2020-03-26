@@ -18,7 +18,7 @@ public class GildedRose {
 				new NormalItem(_5_DEXTERITY_VEST, 10, 20),
 				new AgedBrie(AGED_BRIE, 2, 0),
 				new NormalItem(ELIXIR_OF_THE_MONGOOSE, 5, 7),
-				new Sulfuras(SULFURAS_HAND_OF_RAGNAROS, 0, 80),
+				new Sulfuras(SULFURAS_HAND_OF_RAGNAROS, 0),
 				new BackstagePass(BACKSTAGE_PASSES_TO_A_TAFKAL80ETC_CONCERT, 15, 20),
 				new Conjured(CONJURED_MANA_CAKE, 5, 20));
 

@@ -7,15 +7,15 @@ import org.junit.Test;
 public class SulfurasTest {
 
 	@Test
-	public void testSulfurasQualityNeverChanges() {
-		Sulfuras sulfuras = new Sulfuras("Sulfuras", 2, 20);
+	public void testSulfurasQualityIs80() {
+		Sulfuras sulfuras = new Sulfuras("Sulfuras", 2);
 		sulfuras.aging();
-		assertEquals(20, sulfuras.getQuality());
+		assertEquals(80, sulfuras.getQuality());
 	}
 	
 	@Test
 	public void testSulfurasSellInNeverChanges() {
-		Sulfuras sulfuras = new Sulfuras("Sulfuras", 2, 20);
+		Sulfuras sulfuras = new Sulfuras("Sulfuras", 2);
 		sulfuras.aging();
 		assertEquals(2, sulfuras.getSellIn());
 	}

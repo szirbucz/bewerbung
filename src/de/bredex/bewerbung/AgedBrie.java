@@ -9,6 +9,9 @@ public class AgedBrie extends NormalItem {
 	@Override
 	public void updateQuality() {
 		++this.quality;
+		if (this.sellIn <= 0) {
+			++this.quality;
+		}
 	}
 
 }

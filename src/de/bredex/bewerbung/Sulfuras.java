@@ -2,8 +2,10 @@ package de.bredex.bewerbung;
 
 public class Sulfuras extends NormalItem {
 
-	public Sulfuras(String name, int sellIn, int quality) {
-		super(name, sellIn, quality);
+	private static final int SULFURAS_QUALITY = 80;
+
+	public Sulfuras(String name, int sellIn) {
+		super(name, sellIn, SULFURAS_QUALITY);
 	}
 	
 	public void updateQuality() {
